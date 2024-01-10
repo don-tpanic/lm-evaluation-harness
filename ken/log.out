@@ -1,0 +1,130 @@
+nohup: ignoring input
+The following values were not passed to `accelerate launch` and had defaults used instead:
+	`--num_processes` was set to a value of `4`
+		More than one GPU was found, enabling multi-GPU training.
+		If this was unintended please pass in `--num_processes=1`.
+	`--num_machines` was set to a value of `1`
+	`--mixed_precision` was set to a value of `'no'`
+	`--dynamo_backend` was set to a value of `'no'`
+To avoid this warning pass in values for each of the problematic parameters or run `accelerate config`.
+2024-01-09:23:17:02,835 INFO     [utils.py:145] Note: detected 96 virtual cores but NumExpr set to maximum of 64, check "NUMEXPR_MAX_THREADS" environment variable.
+2024-01-09:23:17:02,835 INFO     [utils.py:148] Note: NumExpr detected 96 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2024-01-09:23:17:02,835 INFO     [utils.py:145] Note: detected 96 virtual cores but NumExpr set to maximum of 64, check "NUMEXPR_MAX_THREADS" environment variable.
+2024-01-09:23:17:02,835 INFO     [utils.py:148] Note: NumExpr detected 96 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2024-01-09:23:17:02,839 INFO     [utils.py:145] Note: detected 96 virtual cores but NumExpr set to maximum of 64, check "NUMEXPR_MAX_THREADS" environment variable.
+2024-01-09:23:17:02,839 INFO     [utils.py:148] Note: NumExpr detected 96 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2024-01-09:23:17:02,848 INFO     [utils.py:145] Note: detected 96 virtual cores but NumExpr set to maximum of 64, check "NUMEXPR_MAX_THREADS" environment variable.
+2024-01-09:23:17:02,848 INFO     [utils.py:148] Note: NumExpr detected 96 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2024-01-09:23:17:03,000 INFO     [config.py:58] PyTorch version 2.0.1 available.
+2024-01-09:23:17:03,000 INFO     [config.py:58] PyTorch version 2.0.1 available.
+2024-01-09:23:17:03,003 INFO     [config.py:58] PyTorch version 2.0.1 available.
+2024-01-09:23:17:03,013 INFO     [config.py:58] PyTorch version 2.0.1 available.
+2024-01-09:23:17:03,660 INFO     [instantiator.py:21] Created a temporary directory at /tmp/tmpopgjf6ao
+2024-01-09:23:17:03,660 INFO     [instantiator.py:76] Writing /tmp/tmpopgjf6ao/_remote_module_non_scriptable.py
+2024-01-09:23:17:03,664 INFO     [instantiator.py:21] Created a temporary directory at /tmp/tmp4fuayccc
+2024-01-09:23:17:03,664 INFO     [instantiator.py:76] Writing /tmp/tmp4fuayccc/_remote_module_non_scriptable.py
+2024-01-09:23:17:03,668 INFO     [instantiator.py:21] Created a temporary directory at /tmp/tmpyjwss8g_
+2024-01-09:23:17:03,668 INFO     [instantiator.py:76] Writing /tmp/tmpyjwss8g_/_remote_module_non_scriptable.py
+2024-01-09:23:17:03,672 INFO     [instantiator.py:21] Created a temporary directory at /tmp/tmpulf4113r
+2024-01-09:23:17:03,672 INFO     [instantiator.py:76] Writing /tmp/tmpulf4113r/_remote_module_non_scriptable.py
+
+===================================BUG REPORT===================================
+Welcome to bitsandbytes. For bug reports, please submit your error trace to: https://github.com/TimDettmers/bitsandbytes/issues
+================================================================================
+
+===================================BUG REPORT===================================
+Welcome to bitsandbytes. For bug reports, please submit your error trace to: https://github.com/TimDettmers/bitsandbytes/issues
+================================================================================
+
+===================================BUG REPORT===================================
+Welcome to bitsandbytes. For bug reports, please submit your error trace to: https://github.com/TimDettmers/bitsandbytes/issues
+================================================================================
+
+===================================BUG REPORT===================================
+Welcome to bitsandbytes. For bug reports, please submit your error trace to: https://github.com/TimDettmers/bitsandbytes/issues
+================================================================================
+2024-01-09:23:17:05,542 INFO     [__main__.py:156] Verbosity set to INFO
+2024-01-09:23:17:05,579 INFO     [__main__.py:156] Verbosity set to INFO
+2024-01-09:23:17:05,583 INFO     [__main__.py:156] Verbosity set to INFO
+2024-01-09:23:17:05,588 INFO     [__main__.py:156] Verbosity set to INFO
+2024-01-09:23:17:08,826 WARNING  [__init__.py:178] Some tasks could not be loaded due to missing dependencies. Run with `--verbosity DEBUG` for full details.
+2024-01-09:23:17:08,861 WARNING  [__init__.py:178] Some tasks could not be loaded due to missing dependencies. Run with `--verbosity DEBUG` for full details.
+2024-01-09:23:17:08,874 WARNING  [__init__.py:178] Some tasks could not be loaded due to missing dependencies. Run with `--verbosity DEBUG` for full details.
+2024-01-09:23:17:08,888 WARNING  [__init__.py:178] Some tasks could not be loaded due to missing dependencies. Run with `--verbosity DEBUG` for full details.
+2024-01-09:23:17:11,985 WARNING  [__init__.py:178] Some tasks could not be loaded due to missing dependencies. Run with `--verbosity DEBUG` for full details.
+2024-01-09:23:17:11,985 WARNING  [__init__.py:178] Some tasks could not be loaded due to missing dependencies. Run with `--verbosity DEBUG` for full details.
+2024-01-09:23:17:11,986 WARNING  [__main__.py:213] File already exists at output/finetune_llama2_chat_7b. Results will be overwritten.
+2024-01-09:23:17:11,986 INFO     [__main__.py:229] Selected Tasks: ['hellaswag', 'winogrande']
+2024-01-09:23:17:11,986 WARNING  [__main__.py:213] File already exists at output/finetune_llama2_chat_7b. Results will be overwritten.
+2024-01-09:23:17:11,986 INFO     [__main__.py:229] Selected Tasks: ['hellaswag', 'winogrande']
+2024-01-09:23:17:11,989 INFO     [distributed_c10d.py:442] Added key: store_based_barrier_key:1 to store for rank: 1
+2024-01-09:23:17:11,990 INFO     [distributed_c10d.py:442] Added key: store_based_barrier_key:1 to store for rank: 0
+2024-01-09:23:17:12,004 WARNING  [__init__.py:178] Some tasks could not be loaded due to missing dependencies. Run with `--verbosity DEBUG` for full details.
+2024-01-09:23:17:12,005 WARNING  [__main__.py:213] File already exists at output/finetune_llama2_chat_7b. Results will be overwritten.
+2024-01-09:23:17:12,005 INFO     [__main__.py:229] Selected Tasks: ['hellaswag', 'winogrande']
+2024-01-09:23:17:12,009 INFO     [distributed_c10d.py:442] Added key: store_based_barrier_key:1 to store for rank: 2
+2024-01-09:23:17:12,021 WARNING  [__init__.py:178] Some tasks could not be loaded due to missing dependencies. Run with `--verbosity DEBUG` for full details.
+2024-01-09:23:17:12,022 WARNING  [__main__.py:213] File already exists at output/finetune_llama2_chat_7b. Results will be overwritten.
+2024-01-09:23:17:12,022 INFO     [__main__.py:229] Selected Tasks: ['hellaswag', 'winogrande']
+2024-01-09:23:17:12,026 INFO     [distributed_c10d.py:442] Added key: store_based_barrier_key:1 to store for rank: 3
+2024-01-09:23:17:12,026 INFO     [distributed_c10d.py:476] Rank 3: Completed store-based barrier for key:store_based_barrier_key:1 with 4 nodes.
+2024-01-09:23:17:12,029 INFO     [distributed_c10d.py:476] Rank 2: Completed store-based barrier for key:store_based_barrier_key:1 with 4 nodes.
+2024-01-09:23:17:12,031 INFO     [distributed_c10d.py:476] Rank 1: Completed store-based barrier for key:store_based_barrier_key:1 with 4 nodes.
+2024-01-09:23:17:12,031 INFO     [distributed_c10d.py:476] Rank 0: Completed store-based barrier for key:store_based_barrier_key:1 with 4 nodes.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:02<00:02,  2.55s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:02<00:02,  2.55s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:02<00:02,  2.67s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:02<00:02,  2.80s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.62s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.76s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.67s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.80s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.66s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.81s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.74s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.90s/it]
+2024-01-09:23:18:12,031 INFO     [huggingface.py:295] Using 4 devices with data parallelism
+/datadrive1/ken/miniconda3/envs/videollama/lib/python3.9/site-packages/datasets/load.py:1429: FutureWarning: The repository for hellaswag contains custom code which must be executed to correctly load the dataset. You can inspect the repository content at https://hf.co/datasets/hellaswag
+You can avoid this message in future by passing the argument `trust_remote_code=True`.
+Passing `trust_remote_code=True` will be mandatory to load this dataset from the next major release of `datasets`.
+  warnings.warn(
+/datadrive1/ken/miniconda3/envs/videollama/lib/python3.9/site-packages/datasets/load.py:1429: FutureWarning: The repository for hellaswag contains custom code which must be executed to correctly load the dataset. You can inspect the repository content at https://hf.co/datasets/hellaswag
+You can avoid this message in future by passing the argument `trust_remote_code=True`.
+Passing `trust_remote_code=True` will be mandatory to load this dataset from the next major release of `datasets`.
+  warnings.warn(
+/datadrive1/ken/miniconda3/envs/videollama/lib/python3.9/site-packages/datasets/load.py:1429: FutureWarning: The repository for hellaswag contains custom code which must be executed to correctly load the dataset. You can inspect the repository content at https://hf.co/datasets/hellaswag
+You can avoid this message in future by passing the argument `trust_remote_code=True`.
+Passing `trust_remote_code=True` will be mandatory to load this dataset from the next major release of `datasets`.
+  warnings.warn(
+/datadrive1/ken/miniconda3/envs/videollama/lib/python3.9/site-packages/datasets/load.py:1429: FutureWarning: The repository for hellaswag contains custom code which must be executed to correctly load the dataset. You can inspect the repository content at https://hf.co/datasets/hellaswag
+You can avoid this message in future by passing the argument `trust_remote_code=True`.
+Passing `trust_remote_code=True` will be mandatory to load this dataset from the next major release of `datasets`.
+  warnings.warn(
+2024-01-09:23:18:22,032 INFO     [task.py:337] Building contexts for task on rank 2...
+2024-01-09:23:18:22,144 INFO     [task.py:337] Building contexts for task on rank 0...
+2024-01-09:23:18:22,627 INFO     [task.py:337] Building contexts for task on rank 3...
+2024-01-09:23:18:23,022 INFO     [task.py:337] Building contexts for task on rank 1...
+2024-01-09:23:18:26,432 INFO     [task.py:337] Building contexts for task on rank 1...
+2024-01-09:23:18:26,432 INFO     [task.py:337] Building contexts for task on rank 2...
+2024-01-09:23:18:26,432 INFO     [task.py:337] Building contexts for task on rank 3...
+2024-01-09:23:18:26,433 INFO     [task.py:337] Building contexts for task on rank 0...
+2024-01-09:23:18:26,469 INFO     [evaluator.py:314] Running loglikelihood requests
+2024-01-09:23:18:26,469 INFO     [evaluator.py:314] Running loglikelihood requests
+2024-01-09:23:18:26,469 INFO     [evaluator.py:314] Running loglikelihood requests
+2024-01-09:23:18:26,469 INFO     [evaluator.py:314] Running loglikelihood requests
+  0%|          | 0/10678 [00:00<?, ?it/s]Passed argument batch_size = auto:4.0. Detecting largest batch size
+Passed argument batch_size = auto:4.0. Detecting largest batch size
+Passed argument batch_size = auto:4.0. Detecting largest batch size
+Passed argument batch_size = auto:4.0. Detecting largest batch size
+Determined largest batch size: 64
+Determined largest batch size: 64
+Determined largest batch size: 64
+Determined largest batch size: 64
+  0%|          | 1/10678 [00:10<31:57:13, 10.77s/it]  1%|          | 65/10678 [00:12<25:46,  6.86it/s]    1%|          | 129/10678 [00:13<12:20, 14.24it/s]  2%|▏         | 193/10678 [00:14<08:00, 21.83it/s]  2%|▏         | 257/10678 [00:15<05:56, 29.20it/s]  3%|▎         | 321/10678 [00:16<04:47, 35.97it/s]  4%|▎         | 385/10678 [00:17<04:05, 42.01it/s]  4%|▍         | 449/10678 [00:18<03:37, 47.03it/s]  5%|▍         | 513/10678 [00:19<03:18, 51.10it/s]  5%|▌         | 577/10678 [00:20<03:05, 54.44it/s]  6%|▌         | 641/10678 [00:21<02:55, 57.04it/s]  7%|▋         | 705/10678 [00:22<02:49, 58.98it/s]  7%|▋         | 769/10678 [00:23<02:43, 60.52it/s]  8%|▊         | 833/10678 [00:24<02:39, 61.70it/s]  8%|▊         | 897/10678 [00:25<02:34, 63.26it/s]  9%|▉         | 961/10678 [00:26<02:31, 64.33it/s] 10%|▉         | 1025/10678 [00:27<02:28, 65.12it/s] 10%|█         | 1089/10678 [00:28<02:25, 65.73it/s] 11%|█         | 1153/10678 [00:29<02:23, 66.18it/s] 11%|█▏        | 1217/10678 [00:30<02:22, 66.60it/s] 12%|█▏        | 1281/10678 [00:31<02:20, 66.89it/s] 13%|█▎        | 1345/10678 [00:32<02:18, 67.26it/s] 13%|█▎        | 1409/10678 [00:33<02:17, 67.46it/s] 14%|█▍        | 1473/10678 [00:34<02:15, 67.84it/s] 14%|█▍        | 1537/10678 [00:35<02:14, 68.18it/s] 15%|█▍        | 1601/10678 [00:36<02:12, 68.41it/s] 16%|█▌        | 1665/10678 [00:37<02:11, 68.74it/s] 16%|█▌        | 1729/10678 [00:38<02:09, 69.03it/s] 17%|█▋        | 1793/10678 [00:39<02:07, 69.68it/s] 17%|█▋        | 1857/10678 [00:39<02:05, 70.14it/s] 18%|█▊        | 1921/10678 [00:40<02:04, 70.46it/s] 19%|█▊        | 1985/10678 [00:41<02:03, 70.60it/s] 19%|█▉        | 2049/10678 [00:42<02:02, 70.73it/s] 20%|█▉        | 2113/10678 [00:43<02:00, 70.84it/s] 20%|██        | 2177/10678 [00:44<01:59, 71.16it/s] 21%|██        | 2241/10678 [00:45<01:58, 71.34it/s] 22%|██▏       | 2305/10678 [00:46<01:57, 71.53it/s] 22%|██▏       | 2369/10678 [00:47<01:55, 71.72it/s] 23%|██▎       | 2433/10678 [00:47<01:54, 72.12it/s] 23%|██▎       | 2497/10678 [00:48<01:53, 72.37it/s]Passed argument batch_size = auto:4.0. Detecting largest batch size
+Passed argument batch_size = auto:4.0. Detecting largest batch size
+Passed argument batch_size = auto:4.0. Detecting largest batch size
+ 24%|██▍       | 2561/10678 [00:49<01:51, 72.62it/s]Passed argument batch_size = auto:4.0. Detecting largest batch size
+Determined largest batch size: 64
+Determined largest batch size: 64
+Determined largest batch size: 64
+Determined largest batch size: 64
+ 25%|██▍       | 2625/10678 [00:56<05:49, 23.07it/s] 25%|██▌       | 2689/10678 [00:57<04:34, 29.07it/s] 26%|██▌       | 2753/10678 [00:58<03:43, 35.52it/s] 26%|██▋       | 2817/10678 [00:59<03:05, 42.28it/s] 27%|██▋       | 2881/10678 [01:00<02:39, 48.75it/s] 28%|██▊       | 2945/10678 [01:01<02:21, 54.62it/s] 28%|██▊       | 3009/10678 [01:02<02:08, 59.63it/s] 29%|██▉       | 3073/10678 [01:02<01:59, 63.68it/s] 29%|██▉       | 3137/10678 [01:03<01:52, 66.88it/s] 30%|██▉       | 3201/10678 [01:04<01:47, 69.28it/s] 31%|███       | 3265/10678 [01:05<01:43, 71.34it/s] 31%|███       | 3329/10678 [01:06<01:40, 72.86it/s] 32%|███▏      | 3393/10678 [01:07<01:38, 74.15it/s] 32%|███▏      | 3457/10678 [01:07<01:36, 75.16it/s] 33%|███▎      | 3521/10678 [01:08<01:34, 75.93it/s] 34%|███▎      | 3585/10678 [01:09<01:32, 76.73it/s] 34%|███▍      | 3649/10678 [01:10<01:30, 77.34it/s] 35%|███▍      | 3713/10678 [01:11<01:29, 77.74it/s] 35%|███▌      | 3777/10678 [01:11<01:28, 78.11it/s] 36%|███▌      | 3841/10678 [01:12<01:26, 78.61it/s] 37%|███▋      | 3905/10678 [01:13<01:25, 78.92it/s] 37%|███▋      | 3969/10678 [01:14<01:24, 79.67it/s] 38%|███▊      | 4033/10678 [01:15<01:22, 80.23it/s] 38%|███▊      | 4097/10678 [01:15<01:21, 80.53it/s] 39%|███▉      | 4161/10678 [01:16<01:20, 80.66it/s] 40%|███▉      | 4225/10678 [01:17<01:19, 80.71it/s] 40%|████      | 4289/10678 [01:18<01:18, 81.08it/s] 41%|████      | 4353/10678 [01:19<01:17, 81.33it/s] 41%|████▏     | 4417/10678 [01:19<01:16, 81.59it/s] 42%|████▏     | 4481/10678 [01:20<01:15, 81.73it/s] 43%|████▎     | 4545/10678 [01:21<01:14, 82.46it/s] 43%|████▎     | 4609/10678 [01:22<01:13, 82.92it/s] 44%|████▍     | 4673/10678 [01:22<01:11, 83.43it/s] 44%|████▍     | 4737/10678 [01:23<01:11, 83.67it/s] 45%|████▍     | 4801/10678 [01:24<01:09, 84.09it/s] 46%|████▌     | 4865/10678 [01:25<01:08, 84.41it/s] 46%|████▌     | 4929/10678 [01:25<01:07, 84.75it/s] 47%|████▋     | 4993/10678 [01:26<01:06, 84.98it/s] 47%|████▋     | 5057/10678 [01:27<01:05, 85.82it/s] 48%|████▊     | 5121/10678 [01:28<01:04, 86.36it/s] 49%|████▊     | 5185/10678 [01:28<01:03, 86.80it/s] 49%|████▉     | 5249/10678 [01:29<01:02, 87.11it/s] 50%|████▉     | 5313/10678 [01:30<01:01, 87.60it/s] 50%|█████     | 5377/10678 [01:31<01:00, 88.09it/s] 51%|█████     | 5441/10678 [01:31<00:59, 88.32it/s] 52%|█████▏    | 5505/10678 [01:32<00:57, 89.29it/s] 52%|█████▏    | 5569/10678 [01:33<00:56, 89.70it/s] 53%|█████▎    | 5633/10678 [01:33<00:55, 90.12it/s] 53%|█████▎    | 5697/10678 [01:34<00:54, 90.75it/s] 54%|█████▍    | 5761/10678 [01:35<00:53, 91.17it/s] 55%|█████▍    | 5825/10678 [01:35<00:52, 91.81it/s] 55%|█████▌    | 5889/10678 [01:36<00:51, 92.46it/s] 56%|█████▌    | 5953/10678 [01:37<00:50, 92.99it/s] 56%|█████▋    | 6017/10678 [01:37<00:50, 93.17it/s] 57%|█████▋    | 6081/10678 [01:38<00:48, 93.92it/s] 58%|█████▊    | 6145/10678 [01:39<00:47, 94.70it/s] 58%|█████▊    | 6209/10678 [01:39<00:46, 95.80it/s] 59%|█████▊    | 6273/10678 [01:40<00:45, 96.48it/s] 59%|█████▉    | 6337/10678 [01:41<00:44, 97.22it/s] 60%|█████▉    | 6401/10678 [01:41<00:43, 98.14it/s] 61%|██████    | 6465/10678 [01:42<00:42, 98.79it/s] 61%|██████    | 6529/10678 [01:43<00:41, 100.30it/s] 62%|██████▏   | 6593/10678 [01:43<00:40, 101.54it/s] 62%|██████▏   | 6657/10678 [01:44<00:39, 102.41it/s] 63%|██████▎   | 6721/10678 [01:44<00:38, 103.75it/s] 64%|██████▎   | 6785/10678 [01:45<00:36, 105.38it/s] 64%|██████▍   | 6849/10678 [01:46<00:35, 106.77it/s] 65%|██████▍   | 6913/10678 [01:46<00:34, 108.72it/s] 65%|██████▌   | 6977/10678 [01:47<00:33, 110.89it/s] 66%|██████▌   | 7041/10678 [01:47<00:32, 113.25it/s] 67%|██████▋   | 7105/10678 [01:48<00:30, 115.73it/s] 67%|██████▋   | 7169/10678 [01:48<00:29, 118.79it/s] 68%|██████▊   | 7233/10678 [01:49<00:28, 121.73it/s] 68%|██████▊   | 7297/10678 [01:49<00:27, 124.46it/s] 69%|██████▉   | 7361/10678 [01:50<00:25, 127.59it/s] 70%|██████▉   | 7425/10678 [01:50<00:24, 130.61it/s] 70%|███████   | 7489/10678 [01:51<00:23, 133.11it/s] 71%|███████   | 7553/10678 [01:51<00:22, 135.89it/s] 71%|███████▏  | 7617/10678 [01:52<00:22, 137.98it/s] 72%|███████▏  | 7681/10678 [01:52<00:21, 140.90it/s] 73%|███████▎  | 7745/10678 [01:52<00:20, 142.44it/s] 73%|███████▎  | 7809/10678 [01:53<00:19, 144.36it/s] 74%|███████▎  | 7873/10678 [01:53<00:19, 147.04it/s] 74%|███████▍  | 7937/10678 [01:54<00:18, 149.40it/s] 75%|███████▍  | 8001/10678 [01:54<00:17, 150.82it/s] 76%|███████▌  | 8065/10678 [01:55<00:17, 152.77it/s] 76%|███████▌  | 8129/10678 [01:55<00:16, 154.96it/s] 77%|███████▋  | 8193/10678 [01:55<00:15, 157.38it/s] 77%|███████▋  | 8257/10678 [01:56<00:15, 158.81it/s] 78%|███████▊  | 8321/10678 [01:56<00:14, 160.33it/s] 79%|███████▊  | 8385/10678 [01:56<00:14, 162.58it/s] 79%|███████▉  | 8449/10678 [01:57<00:13, 164.17it/s] 80%|███████▉  | 8513/10678 [01:57<00:13, 165.99it/s] 80%|████████  | 8577/10678 [01:58<00:12, 168.58it/s] 81%|████████  | 8641/10678 [01:58<00:11, 171.30it/s] 82%|████████▏ | 8705/10678 [01:58<00:11, 173.24it/s] 82%|████████▏ | 8769/10678 [01:59<00:10, 175.68it/s] 83%|████████▎ | 8833/10678 [01:59<00:10, 177.45it/s] 83%|████████▎ | 8897/10678 [01:59<00:09, 178.81it/s] 84%|████████▍ | 8961/10678 [02:00<00:09, 183.41it/s] 85%|████████▍ | 9025/10678 [02:00<00:08, 186.78it/s] 85%|████████▌ | 9089/10678 [02:00<00:08, 189.34it/s] 86%|████████▌ | 9153/10678 [02:01<00:07, 192.05it/s] 86%|████████▋ | 9217/10678 [02:01<00:07, 193.71it/s] 87%|████████▋ | 9281/10678 [02:01<00:07, 195.69it/s] 88%|████████▊ | 9345/10678 [02:02<00:06, 198.30it/s] 88%|████████▊ | 9409/10678 [02:02<00:06, 201.62it/s] 89%|████████▊ | 9473/10678 [02:02<00:05, 203.30it/s] 89%|████████▉ | 9537/10678 [02:03<00:05, 206.32it/s] 90%|████████▉ | 9601/10678 [02:03<00:05, 209.75it/s] 91%|█████████ | 9665/10678 [02:03<00:04, 215.48it/s] 91%|█████████ | 9729/10678 [02:03<00:04, 221.06it/s] 92%|█████████▏| 9793/10678 [02:04<00:03, 227.05it/s] 92%|█████████▏| 9857/10678 [02:04<00:03, 231.81it/s] 93%|█████████▎| 9921/10678 [02:04<00:03, 238.38it/s] 94%|█████████▎| 9985/10678 [02:04<00:02, 242.86it/s] 94%|█████████▍| 10049/10678 [02:05<00:02, 246.32it/s] 95%|█████████▍| 10113/10678 [02:05<00:02, 253.89it/s] 95%|█████████▌| 10177/10678 [02:05<00:01, 261.35it/s] 96%|█████████▌| 10241/10678 [02:05<00:01, 269.42it/s] 97%|█████████▋| 10305/10678 [02:06<00:01, 278.18it/s] 97%|█████████▋| 10369/10678 [02:06<00:01, 284.00it/s] 98%|█████████▊| 10433/10678 [02:06<00:00, 290.78it/s] 98%|█████████▊| 10497/10678 [02:06<00:00, 296.98it/s] 99%|█████████▉| 10561/10678 [02:06<00:00, 309.24it/s]100%|█████████▉| 10625/10678 [02:07<00:00, 329.31it/s]100%|██████████| 10678/10678 [02:07<00:00, 84.05it/s] 
+hf (pretrained=/datadrive1/ken/.cache/huggingface/hub/models--meta-llama--Llama-2-7b-chat-hf/snapshots/c1b0db933684edbfe29a06fa47eb19cc48025e93,peft=/datadrive1/finetuned_models/finetune_llama2_chat_7b/checkpoint.0), gen_kwargs: (None), limit: None, num_fewshot: None, batch_size: auto:4 (64,64,64,64,64)
+|  Tasks   |Version|Filter|n-shot| Metric |Value |   |Stderr|
+|----------|-------|------|-----:|--------|-----:|---|-----:|
+|hellaswag |Yaml   |none  |     0|acc     |0.5583|±  |0.0050|
+|          |       |none  |     0|acc_norm|0.7430|±  |0.0044|
+|winogrande|Yaml   |none  |     0|acc     |0.6780|±  |0.0131|
+

@@ -1,0 +1,50 @@
+# pretrained
+hf (pretrained=/datadrive1/ken/.cache/huggingface/hub/models--meta-llama--Llama-2-7b-chat-hf/snapshots/c1b0db933684edbfe29a06fa47eb19cc48025e93), gen_kwargs: (None), limit: None, num_fewshot: None, batch_size: auto:4 (64,64,64,64,64)
+|      Tasks      |Version|Filter|n-shot|  Metric   | Value |   |Stderr|
+|-----------------|-------|------|-----:|-----------|------:|---|-----:|
+|hellaswag        |Yaml   |none  |     0|acc        | 0.5779|±  |0.0049|
+|                 |       |none  |     0|acc_norm   | 0.7552|±  |0.0043|
+|truthfulqa       |N/A    |none  |     0|bleu_max   |20.5089|±  |0.4937|
+|                 |       |none  |     0|bleu_acc   | 0.4517|±  |0.0003|
+|                 |       |none  |     0|bleu_diff  |-1.6935|±  |0.3774|
+|                 |       |none  |     0|rouge1_max |45.2940|±  |0.6543|
+|                 |       |none  |     0|rouge1_acc | 0.4504|±  |0.0003|
+|                 |       |none  |     0|rouge1_diff|-1.6825|±  |0.5758|
+|                 |       |none  |     0|rouge2_max |30.1975|±  |0.7987|
+|                 |       |none  |     0|rouge2_acc | 0.3831|±  |0.0003|
+|                 |       |none  |     0|rouge2_diff|-3.1609|±  |0.7788|
+|                 |       |none  |     0|rougeL_max |42.0366|±  |0.6564|
+|                 |       |none  |     0|rougeL_acc | 0.4517|±  |0.0003|
+|                 |       |none  |     0|rougeL_diff|-1.9743|±  |0.5714|
+|                 |       |none  |     0|acc        | 0.3526|±  |0.0500|
+| - truthfulqa_gen|Yaml   |none  |     0|bleu_max   |20.5089|±  |0.7026|
+|                 |       |none  |     0|bleu_acc   | 0.4517|±  |0.0174|
+|                 |       |none  |     0|bleu_diff  |-1.6935|±  |0.6143|
+|                 |       |none  |     0|rouge1_max |45.2940|±  |0.8089|
+|                 |       |none  |     0|rouge1_acc | 0.4504|±  |0.0174|
+|                 |       |none  |     0|rouge1_diff|-1.6825|±  |0.7588|
+|                 |       |none  |     0|rouge2_max |30.1975|±  |0.8937|
+|                 |       |none  |     0|rouge2_acc | 0.3831|±  |0.0170|
+|                 |       |none  |     0|rouge2_diff|-3.1609|±  |0.8825|
+|                 |       |none  |     0|rougeL_max |42.0366|±  |0.8102|
+|                 |       |none  |     0|rougeL_acc | 0.4517|±  |0.0174|
+|                 |       |none  |     0|rougeL_diff|-1.9743|±  |0.7559|
+| - truthfulqa_mc1|Yaml   |none  |     0|acc        | 0.3023|±  |0.0161|
+| - truthfulqa_mc2|Yaml   |none  |     0|acc        | 0.4532|±  |0.0156|
+|winogrande       |Yaml   |none  |     0|acc        | 0.6646|±  |0.0133|
+
+|  Groups  |Version|Filter|n-shot|  Metric   | Value |   |Stderr|
+|----------|-------|------|-----:|-----------|------:|---|-----:|
+|truthfulqa|N/A    |none  |     0|bleu_max   |20.5089|±  |0.4937|
+|          |       |none  |     0|bleu_acc   | 0.4517|±  |0.0003|
+|          |       |none  |     0|bleu_diff  |-1.6935|±  |0.3774|
+|          |       |none  |     0|rouge1_max |45.2940|±  |0.6543|
+|          |       |none  |     0|rouge1_acc | 0.4504|±  |0.0003|
+|          |       |none  |     0|rouge1_diff|-1.6825|±  |0.5758|
+|          |       |none  |     0|rouge2_max |30.1975|±  |0.7987|
+|          |       |none  |     0|rouge2_acc | 0.3831|±  |0.0003|
+|          |       |none  |     0|rouge2_diff|-3.1609|±  |0.7788|
+|          |       |none  |     0|rougeL_max |42.0366|±  |0.6564|
+|          |       |none  |     0|rougeL_acc | 0.4517|±  |0.0003|
+|          |       |none  |     0|rougeL_diff|-1.9743|±  |0.5714|
+|          |       |none  |     0|acc        | 0.3526|±  |0.0500|
